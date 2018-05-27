@@ -1,0 +1,11 @@
+<p>This is static info page. <a href="" (click)="RedirectToHome()"><strong>Navigate to Home Screen</strong></a>
+    <table class="table table-bordered table-hover">
+            <thead class="table-primary">
+                <th scope="col">Items</th>
+         </thead>
+         <tbody>
+            <tr *ngFor="let item of items">
+                {{item}}
+          </tr>
+        </tbody>
+        </table>
